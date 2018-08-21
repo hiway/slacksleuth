@@ -20,7 +20,17 @@ slacksleuth works with MacOS Sierra, Python3.7 and virtualenv.
 
 	slacksleuth setup
 
+    Slack API Token: <slack-oauth2-api-token>
+    Slack Channel: #testing
+
 ## Arm the trap
 
 	slacksleuth arm
+	
+## Walk away, wait.
 
+> If nobody falls for the trap, 
+  remember to stop slacksleuth with Ctrl+C
+  before switching to Slack yourself!   
+
+## Have fun :)

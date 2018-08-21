@@ -43,8 +43,8 @@ class SlackSleuth(object):
         """
         Configure credentials for Slack.
         """
-        self.token = click.prompt('Slack API Token:')
-        self.channel = click.prompt('Slack Channel:')
+        self.token = click.prompt('Slack API Token')
+        self.channel = click.prompt('Slack Channel')
 
     def save_config(self):
         """
